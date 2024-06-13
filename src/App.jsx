@@ -1,10 +1,7 @@
-// import { useState } from "react";
 import "./App.css";
 
 function App() {
-  // const [count, setCount] = useState(0);
-
-  return <p>Hello</p>;
+  return <h1>React Portfolio - Coding in Progress</h1>;
 }
 
 export default App;
