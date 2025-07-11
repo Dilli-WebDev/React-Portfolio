@@ -1,15 +1,19 @@
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
+import Container from "./components/Container";
+import Contact from "./components/Contact";
 
 function App() {
   return (
     <>
       <div className="fixed -z-10 min-h-screen w-full background-color"></div>
 
-      <main className="h-full w-full mx-auto max-w-[47.5rem] p-6">
+      <div className="h-full w-full mx-auto max-w-[47.5rem] p-6">
         <Navbar />
-        <Hero />
-      </main>
+        <main className="w-full min-h-screen h-full flex justify-center pb-10">
+          <Container />
+        </main>
+        <Contact />
+      </div>
     </>
   );
 }
