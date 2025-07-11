@@ -1,5 +1,19 @@
 @import "tailwindcss";
 
-* {
-  font-family: "Roboto";
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #fff;
+  background-color: #0c0f11;
+  font-family: Roboto, serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-light-gray {
+  --tw-text-opacity: 1;
+  color: rgb(168 173 178 / var(--tw-text-opacity, 1));
 }

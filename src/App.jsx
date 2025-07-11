@@ -1,7 +1,15 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+
 function App() {
   return (
     <>
-      <h1 className="text-3xl text-center">Work in Progress</h1>
+      <div className="fixed -z-10 min-h-screen w-full background-color"></div>
+
+      <main className="h-full w-full mx-auto max-w-[47.5rem] p-6">
+        <Navbar />
+        <Hero />
+      </main>
     </>
   );
 }
